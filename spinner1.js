@@ -14,7 +14,7 @@ const spinner1 = function() {
   }, 700);
 };
 
-for(let i = 0; i < 3; i++){
+for (let i = 0; i < 3; i++) {
   setTimeout(() => {
     spinner1();
   }, 800 * i);
